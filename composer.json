@@ -1,5 +1,5 @@
 {
-  "name" : "nia/collection-queue",
+  "name" : "v1o/collection-queue",
   "description" : "Generic queue component.",
   "require" : {
     "php" : ">=7.0.0"
