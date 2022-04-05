@@ -37,7 +37,7 @@ interface QueueInterface extends IteratorAggregate
      *
      * @return mixed Dequeued element.
      */
-    public function dequeue();
+    public function dequeue($delay = null);
 
     /**
      * Enqueues an element into the queue.

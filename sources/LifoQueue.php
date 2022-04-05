@@ -64,7 +64,7 @@ class LifoQueue implements QueueInterface
      *
      * @see \Nia\Collection\Queue\QueueInterface::dequeue()
      */
-    public function dequeue()
+    public function dequeue($delay = null)
     {
         return array_pop($this->elements);
     }
